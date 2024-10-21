@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:workout_app/video_info.dart';
 
 import 'home_page.dart';
 
@@ -30,10 +31,16 @@ class MyApp extends StatelessWidget {
         //
         // This works for code too, not just values: Most code changes can be
         // tested with just a hot reload.
+       // theme: ThemeData(
+          //primarySwatch: Colors.blue,
+        //),
+
+        //Warna awal
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+
       ),
-      home: HomePage(),
+      home: VideoInfo(),
     );
   }
 }
